@@ -1,0 +1,71 @@
+/* heder */
+.page{
+     background: #FFFFFF;
+     color: #434455
+}
+.logo{
+    color: #4D5AE5;
+}
+.logo-web{
+    color: #2E2F42
+}
+.list{
+    list-style: none;
+    text-decoration: none;
+}
+.site-nav .link{
+    color: #2E2F42;
+}
+.site-nav .link:hover, .site-nav .link:focus{
+    color: #404BBF;
+}
+.site-nav .link.current{
+    color: #404BBF
+}
+.auth-nav .link{
+    color: #434455;
+}
+.auth-nav .link:hover, .auth-nav .link:focus{ 
+    color: #404BBF;
+}
+
+/* hero */
+.hero{
+    background: #2E2F42
+
+
+}
+.hero-title{
+    color: #FFFFFF;
+}
+
+/* skills */
+.skills-title{
+    color: #2E2F42;
+}
+
+/* section title */
+.section-title{
+    color: #2E2F42;
+}
+
+/* team */
+.team-title{
+    color: #2E2F42
+}
+
+
+/* footer */
+.footer-text{
+    color: #E7E9FC;
+}
+
+
+
+
+/* background: #F4F4FD; team*/
+/* background: #2E2F42; */
+/* color: #4D5AE5; logo  color: #2E2F42*/
+/* color: #2E2F42; nav */
+/* color: #434455 adr */
+/* color: #434455; dop */
