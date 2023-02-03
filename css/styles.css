@@ -1,24 +1,37 @@
+:root{
+    --primary-text-color:#434455;
+    --secondary-text-color:#2E2F42;
+    --accent-color:#4D5AE5;
+    --nav-color:#404BBF;
+    --white-color:#FFFFFF;
+    --light-color:#F4F4FD;
+    --filters-color:#404BBF;
+}
+
 /* heder */
 .page{
     font-family: 'Roboto', sans-serif;
-     background-color:#FFFFFF;
-     color: #434455
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color:var(--white-color);
+    color:var(--primary-text-color);
 }
 
 .logo{
-    color: #4D5AE5;
+    color: var(--accent-color);
 }
 .logo-web{
-    color: #2E2F42
+    color: var(--secondary-text-color);
 }
 
 .logo, .logo-web{
     font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 24px;
-        text-transform: uppercase
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
 }
 .list{
     list-style: none;
@@ -26,128 +39,108 @@
 }
 
 .site-nav .link{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    color: #2E2F42;
+    font-weight: 500;
+    color:var(--secondary-text-color);
 }
 
 .site-nav .link:hover, .site-nav .link:focus{
-    color: #404BBF;
+    color: var(--nav-color);
 }
 
 .site-nav .link.current{
-    color: #404BBF
+    color: var(--nav-color);
 }
 
 .auth-nav .link{
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    color: #434455;
+    font-style: normal;
+    color: var(--primary-text-color);
 }
 .auth-nav .link:hover, .auth-nav .link:focus{ 
-    color: #404BBF;
+    color:var(--nav-color);
 }
 
 /* hero */
 .hero{
-    background-color: #2E2F42;
+    background-color: var(--secondary-text-color);
 }
 
 .hero-title{
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 60px;
-        letter-spacing: 0.02em;
-    color: #FFFFFF;
+    font-size: 56px;
+    line-height: 1.07;
+    color:var(--white-color);
 }
 
 .hero-button{
     font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:var(--white-color);
+    background-color: var(--accent-color);
     border-radius: 4px;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .hero-button:hover, .hero-button:focus{
-    background-color: #404BBF;
+    background-color:var(--nav-color);
 }
 
 /* skills */
-.skills-title, .team-title{
+.section-sub-title{
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.skills-text, .team-text{
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--secondary-text-color);
 }
 
 /* section title */
 .section-title{
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.1;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-    color: #2E2F42;
+    font-size: 36px;
+    line-height: 1.1;
+    text-transform: capitalize;
+    color: var(--secondary-text-color);
 }
 
+/* team */
+.team{
+    background-color:var(--light-color);
+}
+
+
 /* footer */
+.logo {
+    color: var(--accent-color);
+}
+
+.footer .logo-web {
+    color:var(--light-color);
+}
+
 .footer{
-    background-color: #2E2F42;
+    background-color:var(--secondary-text-color);
 }
 
 .footer-text{
-        font-size: 16px;
-        line-height: 1.5x;
-        letter-spacing: 0.02em;
     color: #E7E9FC;
 }
 
 /* portfolio */
 .button-filters{
     font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background-color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--accent-color);
+    background-color: var(--light-color);
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .button-filters:hover{
-color: #FFFFFF;
-background-color: #404BBF;
+    color: var(--white-color);
+    background-color:var(--filters-color);
 }
 
-.portfolio-title{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.portfolio-text{
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-}
