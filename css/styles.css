@@ -27,7 +27,7 @@
 
 .logo, .logo-web{
     font-family: 'Raleway';
-    font-weight: 800;
+    /* font-weight: 800; */
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
